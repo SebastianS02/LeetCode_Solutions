@@ -1,3 +1,11 @@
+// Given an array of integers nums and an integer target, 
+//      return indices of the two numbers such that they add up to target.
+
+// You may assume that each input would have exactly one solution, 
+//      and you may not use the same element twice.
+
+// You can return the answer in any order.
+
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -15,3 +23,9 @@ var twoSum = function(nums, target) {
         }
     }
 };
+
+// This code declares the number array needed for the output,
+// then uses a double for loop to parse through the given array of integers.
+// If it finds two numbers that equal the target when summed and are not equal,
+// the indexes of those two numbers in the given array are stored in the newly created
+// number array, then the number array is returned.
