@@ -25,7 +25,7 @@ var twoSum = function(nums, target) {
 };
 
 // This code declares the number array needed for the output,
-// then uses a double for loop to parse through the given array of integers.
+// then uses a double for loop to iterate through the given array of integers.
 // If it finds two numbers that equal the target when summed and are not equal,
 // the indexes of those two numbers in the given array are stored in the newly created
 // number array, then the number array is returned.
