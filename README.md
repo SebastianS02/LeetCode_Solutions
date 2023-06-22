@@ -20,7 +20,7 @@ Information regarding the status of my progress with the problem is found in the
 pretty self explanatory. Here are some notes regarding how I keep track of the problem in the commit history:
 
 *    If a program is "completed", it has passed all test cases on LeetCode.
-*    
+    
 *    If a program is "explained", I have commented the problem parameters at the top of the program,
      and explained how my code works at the bottom of the program.
      
