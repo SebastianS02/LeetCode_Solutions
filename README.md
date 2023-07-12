@@ -6,8 +6,8 @@
 *    Comments at the top of the file contain the problem. It explains what the program should do,
      and may also contain some examples.
 
-*    If there are any functions/classes used for the problem, they will be located above the main function, with comments beneath
-     them explaining their functionality.
+*    If there are any functions/classes used for the problem (for example, certain linked list problems will have their own function),
+     they will be located above the main function, with comments beneath them explaining their functionality.
 
 *    All of the code for the program will follow, including parameters.
 
