@@ -30,4 +30,4 @@ var findDifference = function(nums1, nums2) {
 //and if the first array in answer does not contain it as well. If both are true, we push this value
 //into the first array, otherwise we do nothing. We repeat this process for nums2, pushing the values
 //into the second array in answer if the same conditions for nums2 are met. We return answer once we
-//exit the second loop.
+//exit the second loop. 
