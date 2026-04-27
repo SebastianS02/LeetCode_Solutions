@@ -5,23 +5,12 @@
  * @return {boolean}
  */
 var isPalindrome = function(x) {
-    const num = x.toString();
-    const array = num.split("");
-    var j = array.length-1;
-    for(var i = 0; i < array.length / 2; i++){
-        if(array[i] != array[j]){
-            return false;
-        }
-        j--;
-    }
-    return true;
+    return x === Number(x.toString().split('').reverse().join(''));
 };
 
-// This code converts the given integer into a string with the toString function, then splits that string
-// into an array at every character, meaning each character has its own index in the array. We then assign
-// a new variable j the length of this new array minus one, to prevent an out of bounds error. After that,
-// we iterate only through half of the array, because if the array/integer is a palindrome, after reaching
-// the halfway mark, we would be checking the same elements, but reversed. First, we check the first and last
-// elements of the array, and if they are equal, we move on to the second and second-to-last elements,
-// and so on. If at any point the two elements being checked do not match, we return false and the program ends.
-// If we reach the end of the for loop before that happens, we return true.
+//This code is fairly simple with JavaScript's built-in functions and can be done with one line as shown here.
+//First we need to convert the input x to a string using toString(), then turn it into an array using split('').
+//With this split, each digit of the number will be its own element in the array. Next, we reverse the array's
+//elements using reverse(), and then turn the array back into a string using join(''). Finally, we convert this
+//newly reversed string back into a number by casting it with Number(...). Now, we have our input number reversed,
+//which if the original input is a palindrome, will be equal to this number, which we check with x === ... .
